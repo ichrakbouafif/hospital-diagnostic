@@ -62,9 +62,9 @@ java -cp target/hospital-diagnostic-1.0-SNAPSHOT.jar com.hospital.diagnostic.Hea
 Examples
 bash
 ```
-java -jar target/hospital-diagnostic-1.0-SNAPSHOT.jar 15
-java -jar target/hospital-diagnostic-1.0-SNAPSHOT.jar 33
-java -jar target/hospital-diagnostic-1.0-SNAPSHOT.jar 55
+java -cp target/hospital-diagnostic-1.0-SNAPSHOT.jar com.hospital.diagnostic.HealthIndexProcessor 15
+java -cp target/hospital-diagnostic-1.0-SNAPSHOT.jar com.hospital.diagnostic.HealthIndexProcessor 33
+java -cp target/hospital-diagnostic-1.0-SNAPSHOT.jar com.hospital.diagnostic.HealthIndexProcessor 55
 ```
 
 
